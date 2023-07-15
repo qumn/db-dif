@@ -1,0 +1,33 @@
+{
+  "master": {
+    "host": "localhost",
+    "port": 3305,
+    "user": "root",
+    "password": "root",
+    "database": "ry-cloud"
+  },
+  "slave": {
+    "host": "localhost",
+    "port": 3305,
+    "user": "root",
+    "password": "root",
+    "database": "ry-cloud"
+  },
+  "rules": [
+    {
+      "table": "sys_dict_type",
+      "columns": [
+        "dict_type",
+        "dict_name"
+      ]
+    },
+    {
+      "table": "sys_dict_type",
+      "columns": [
+        "dict_type",
+        "dict_label",
+        "dict_type"
+      ]
+    }
+  ]
+}

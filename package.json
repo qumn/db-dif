@@ -1,0 +1,19 @@
+{
+  "name": "db-dif",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "qumn",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^0.33.0"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "mysql-await": "^2.2.3"
+  }
+}
